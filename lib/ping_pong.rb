@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+# #!/usr/bin/env ruby
 def ping_pong?(number)
   x = 0
   array = []
@@ -16,3 +16,8 @@ def ping_pong?(number)
   end
   array
 end
+
+puts 'Put in a number'
+number = gets.chomp
+integer = number.to_i
+puts ping_pong?(integer)
